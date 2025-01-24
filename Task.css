@@ -1,0 +1,392 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgba(255, 255, 255, 0.904);
+}
+
+/* Container */
+.container {
+    display: flex;
+    flex-direction: row;
+    height: 2200px;
+    width: 1700px;
+    align-content: center;
+    margin-top: 50px;
+    margin: auto;
+    column-gap: 50px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(248, 248, 248);
+}
+
+/* Sidebar Styles */
+.sidebar1 {
+    height: 100%;
+    width: 140px;
+    margin-left: 20px;
+    background-color: rgba(110, 105, 255, 0.904);
+}
+
+.sidebar2 {
+    height: 100%;
+    width: 140px;
+    margin-right: 10px;
+    background-color: rgba(110, 105, 255, 0.904);
+}
+
+/* Main Content Box */
+.mainbox {
+    display: flex;
+    flex-direction: column;
+    row-gap: 28px;
+    align-content: center;
+    height: 100%;
+    width: 800px;
+    background-color: rgb(252, 252, 252);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+
+.box1 {
+    margin-top: 20px;
+    height: 530px;
+    width: 100%;
+    background-color: rgb(105, 94, 250);
+    border-radius: 25px;
+}
+/* Specific Styling for Box1 Form */
+.box1 form {
+    margin-left: 190px;
+    background-color: rgb(105, 94, 250);
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    color: #ffffff;
+}
+
+.box1 label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 1em;
+    color: #ffffff;
+    background-color: transparent;
+}
+
+.bcenter-title {
+    position: relative;
+    top: 0px;
+    margin: auto;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: Arial, sans-serif;
+    background-color: rgb(105, 94, 250);
+    color: #ffffff;
+}
+
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 8px;
+    background-color: #dfe6e9;
+    color: #2d3436;
+    font-size: 1em;
+    transition: all 0.3s ease;
+    text-align: center;
+}
+
+input[type="number"]:hover {
+    background-color: #b2bec3;
+    transform: scale(1.05);
+}
+
+input[type="number"]:focus {
+    outline: none;
+    border: 2px solid #00cec9;
+    background-color: #ffffff;
+    transform: scale(1.05);
+}
+/* Specific Styling for Box2 Form */
+.box2 {
+    display: flex;
+    height: 230px;
+    width: 100%;
+    background-color: rgb(97, 120, 255);
+    border-radius: 25px;
+}
+
+.box2 form {
+    margin-left: 190px;
+    background-color: rgb(97, 120, 255);
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    color: #ffffff;
+}
+
+.box2 label {
+display: block;
+margin-bottom: 10px;
+font-weight: bold;
+font-size: 1em;
+color: #ffffff;
+background-color: transparent;
+}
+
+.scenter-title {
+    position: relative;
+    top: 0px;
+    margin: auto;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: Arial, sans-serif;
+    background-color: rgb(97, 120, 255);
+    color: #ffffff;
+}
+
+/* Specific Styling for Box3 Form */
+.box3 {
+    height: 140px;
+    width: 100%;
+    background-color: rgb(175, 175, 245);
+    border-radius: 25px;
+}
+
+.box3 form {
+    margin-left: 190px;
+    background-color: rgb(175, 175, 245);
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    color: #ffffff;
+}
+
+.box3 label {
+display: block;
+margin-bottom: 10px;
+font-weight: bold;
+font-size: 1em;
+color: #ffffff;
+background-color: transparent;
+}
+
+.acenter-title {
+    position: relative;
+    top: 0px;
+    margin: auto;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: Arial, sans-serif;
+    background-color: rgb(175, 175, 245);
+    color: #ffffff;
+}
+
+.box3 button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 8px;
+    background-color: #6c5ce7;
+    color: #ffffff;
+    font-size: 1em;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.box3 button:hover {
+    background-color: #00cec9;
+    transform: scale(1.05);
+}
+
+.box3 button:active {
+    background-color: #0984e3;
+    transform: scale(0.98);
+}
+
+/* Specific Styling for Box4 Form */
+.box4 {
+    display: flex;
+    flex-direction: row;
+    column-gap: 35px;
+    height: 110px;
+    width: 100%;
+    border-radius: 15px;
+    background-color: rgb(255, 255, 255);
+    border: solid;
+    border-color: rgb(255, 255, 255);
+}
+
+.minibox1, .minibox2, .minibox3 {
+    margin: auto;
+    height: 114px;
+    width: 220px;
+    border-radius: 15px;
+    background-color: rgb(175, 175, 245);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; /* Ensures images don't overflow the box */
+}
+
+.minibox1 img, .minibox2 img, .minibox3 img {
+    width: 100%; /* Makes the image adapt to the width of the container */
+    height: auto; /* Maintains the aspect ratio of the image */
+}
+
+
+.box5 {
+    display: flex;
+    flex-direction: row;
+    column-gap: 30px;
+    height: 110px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    border: solid;
+    border-color: rgb(255, 255, 255);
+}
+
+/* Form Container */
+.bottombox1 {
+    height: 66vh;
+    width: 390px;
+    border-radius: 15px;
+    background-color: rgb(175, 175, 245);
+}
+
+.bottombox2 {
+    height: 66vh;
+    width: 390px;
+    border-radius: 15px;
+    padding: 20px;
+    background: linear-gradient(135deg, #6c5ce7, #a29bfe);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    color: #ffffff;
+    font-family: 'Arial', sans-serif;
+    font-size: 1em;
+    overflow-y: auto;
+}
+
+.bottombox2 label {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #ffffff;
+    margin-bottom: 15px;
+    display: block;
+    text-align: center;
+}
+
+.bottombox2 li {
+    list-style-type: none;
+    padding: 8px;
+    margin-bottom: 8px;
+    background-color: #dfe6e9;
+    color: #2d3436;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 0.9em;
+}
+
+.bottombox2 li:hover {
+    background-color: #00cec9;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+/* Form Styles */
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f4f8;
+}
+
+form {
+    background-color: #6c5ce7;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    padding: 30px 40px;
+    max-width: 400px;
+    width: 100%;
+    color: #ffffff;
+}
+
+/* Heading Styles */
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1.8em;
+    color: #ffffff;
+    background-color: #6c5ce7;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.center-title {
+    position: relative;
+    top: 20px;
+    margin: 350 auto;
+    text-align: center;
+    font-size: 2rem;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+/* Input Styles */
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    font-size: 0.9em;
+    background-color: #6c5ce7;
+    color: #dfe6e9;
+}
+
+input[type="text"], input[type="date"], select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 8px;
+    background-color: #dfe6e9;
+    color: #2d3436;
+    font-size: 1em;
+}
+
+input[type="text"]:focus, input[type="date"]:focus, select:focus {
+    outline: none;
+    border: 2px solid #00cec9;
+    background-color: #ffffff;
+}
+
+select {
+    appearance: none;
+    cursor: pointer;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 15px;
+    border: none;
+    border-radius: 8px;
+    background-color: #00b894;
+    color: #ffffff;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #00cec9;
+}
